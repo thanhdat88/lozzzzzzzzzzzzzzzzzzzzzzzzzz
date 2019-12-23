@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STT" />
+
+    <TextView
+        android:id="@+id/txtTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="HovaTen" />
+
+    <TextView
+        android:id="@+id/txtQuequan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Quequan" />
+
+    <TextView
+        android:id="@+id/txtNamsinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Namsinh" />
+
+
+    <Button
+        android:id="@+id/btnSua"
+        android:layout_width="10dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+
+        android:text="Sua" />
+
+    <Button
+        android:id="@+id/btnXoa"
+        android:layout_width="10dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:text="Xoa" />
+    <Button
+        android:id="@+id/btnDiem"
+        android:layout_width="10dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:text="Diem" />
+</LinearLayout>
